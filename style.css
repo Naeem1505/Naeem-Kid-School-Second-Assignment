@@ -370,7 +370,7 @@ marquee {
 
 .stories-container {
 
-    background: url(./image/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background: url(./image/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
     padding: 0px 0px 60px 0px;
 }
 
@@ -468,7 +468,7 @@ marquee {
     text-align: left;
 }
 
-.right-side-1 > h2 {
+.right-side-1>h2 {
 
     color: rgb(0, 0, 0);
     font-size: 16.34px;
@@ -506,7 +506,7 @@ marquee {
     text-align: left;
 }
 
-.right-side-2 > h2 {
+.right-side-2>h2 {
 
     color: rgb(0, 0, 0);
     font-size: 16.34px;
@@ -544,7 +544,7 @@ marquee {
     text-align: left;
 }
 
-.right-side-3 > h2 {
+.right-side-3>h2 {
 
     color: rgb(0, 0, 0);
     font-size: 16.34px;
@@ -582,7 +582,7 @@ marquee {
     text-align: left;
 }
 
-.right-side-4 > h2 {
+.right-side-4>h2 {
 
     color: rgb(0, 0, 0);
     font-size: 16.34px;
@@ -612,14 +612,14 @@ marquee {
     border-radius: 10px;
 }
 
-.view-all{
+.view-all {
 
     display: flex;
     justify-content: center;
     margin-top: 65px;
 }
 
-.view-all > button{
+.view-all>button {
 
     border-radius: 12px;
     background: rgb(17, 17, 17);
@@ -632,6 +632,82 @@ marquee {
 }
 
 /* Our Stories Section Style End */
+
+
+/* Footer Section Style Start */
+
+
+.footer-container {
+
+    background: rgb(1, 172, 253);
+    
+}
+
+.footer-content {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding-top: 123px;
+    padding-bottom: 140px;
+}
+
+.footer-menu{
+
+    display: block;
+    justify-content: center;
+}
+
+.kids-logo {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.kids-logo>h1 {
+
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.kids-description {
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.footer-heading {
+
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer-nav-button>a {
+
+    display: block;
+}
+
+.footer-home, .footer-about, .footer-facilities, .footer-admission {
+
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Footer Section Style End */
+
 
 
 
@@ -767,7 +843,9 @@ marquee {
 
     /* Our Stories style Start */
 
-    .stories-left-side, .stories-image>img, .left-content{
+    .stories-left-side,
+    .stories-image>img,
+    .left-content {
 
         display: none;
     }
@@ -781,25 +859,25 @@ marquee {
         margin: 15px;
         position: relative;
     }
-    
+
     .right-side-1 {
-    
+
         border-radius: 10px;
         background: rgb(255, 255, 255);
         display: grid;
     }
-    
-    .right-side-1 > h2 {
-    
+
+    .right-side-1>h2 {
+
         color: rgb(0, 0, 0);
         font-size: 14px;
         font-weight: 700;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     .side-1-button {
-    
+
         color: rgb(255, 255, 255);
         border-radius: 30.93px;
         width: 120px;
@@ -812,32 +890,32 @@ marquee {
         top: 85px;
         left: 15px;
     }
-    
+
     .right-side-1>img {
-    
+
         width: 100%;
         border-radius: 10px;
     }
-    
+
     .right-side-2 {
-    
+
         border-radius: 16px;
         background: rgb(255, 255, 255);
         display: grid;
         text-align: left;
     }
-    
-    .right-side-2 > h2 {
-    
+
+    .right-side-2>h2 {
+
         color: rgb(0, 0, 0);
         font-size: 14px;
         font-weight: 700;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     .side-2-button {
-    
+
         color: rgb(255, 255, 255);
         border-radius: 47.93px;
         width: 120px;
@@ -850,32 +928,32 @@ marquee {
         top: 85px;
         right: 30px;
     }
-    
+
     .right-side-2>img {
-    
+
         width: 100%;
         border-radius: 10px;
     }
-    
+
     .right-side-3 {
-    
+
         border-radius: 16px;
         background: rgb(255, 255, 255);
         display: grid;
         text-align: left;
     }
-    
-    .right-side-3 > h2 {
-    
+
+    .right-side-3>h2 {
+
         color: rgb(0, 0, 0);
         font-size: 14px;
         font-weight: 700;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     .side-3-button {
-    
+
         color: rgb(255, 255, 255);
         border-radius: 47.93px;
         width: 120px;
@@ -888,30 +966,30 @@ marquee {
         bottom: 140px;
         left: 20px;
     }
-    
+
     .right-side-3>img {
-    
+
         width: 100%;
         border-radius: 10px;
     }
-    
+
     .right-side-4 {
-    
+
         border-radius: 16px;
         background: rgb(255, 255, 255);
         display: grid;
         text-align: left;
     }
-    
-    .right-side-4 > h2 {
-    
+
+    .right-side-4>h2 {
+
         color: rgb(0, 0, 0);
         font-size: 14px;
         font-weight: 700;
     }
-    
+
     .side-4-button {
-    
+
         color: rgb(255, 255, 255);
         border-radius: 47.93px;
         width: 120px;
@@ -924,13 +1002,56 @@ marquee {
         top: 330px;
         left: 190px;
     }
-    
+
     .right-side-4>img {
-    
+
         width: 100%;
         border-radius: 10px;
     }
 
     /* Our Stories style End */
+
+
+    /* Footer Section Style Start */
+
+    .footer-content {
+
+        display: grid;
+        text-align: left;
+        justify-content: left;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 123px;
+        padding-bottom: 140px;
+        padding-left: 10px;
+
+    }
+
+    .kids-logo {
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+    }
+    
+    .kids-logo>h1 {
+    
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .kids-description {
+    
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 25px;
+        text-align: left;
+    }
+
+
+    /* Footer Section Style End */
 
 }
